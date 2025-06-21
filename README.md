@@ -10,9 +10,9 @@ When no device is specified, the tool operates on the current active device.
 `snd.exe [D:nameofDevice] verb [argument]`  
 Examples:  
 `snd +.1` increases volume by 10%  
-`snd -.5` reduces by 50%  
+`snd volume -.5` reduces by 50%  
 `snd 1` sets volume to max  
-`snd D:Rea 1` does a partial match on the text following D: for device, matching "Realtek(R) Audio" on my system, and sets volume to max.  
+`snd D:Rea volume 1` does a partial match on the text following D: for device, matching "Realtek(R) Audio" on my system, and sets volume to max.  
   
 Verbs:  
 volume \[+/-\]{0.0-1.0}; default action if no verb is specified  
